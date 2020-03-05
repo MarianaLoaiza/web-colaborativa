@@ -1,0 +1,22 @@
+html {
+    display: flex;
+    width: 100%;
+}
+body {
+    background-color: white;
+}
+.container-team {
+    display: block;
+    color: black;
+    border-radius: 10px;
+    margin-top: 5px;
+
+}
+/*Colores 
+Verde oscuro: #099d8d
+Verde claro: #14d9c4
+Blanco: #ffffff
+Negro: #000000
+Gris oscuro: #54585a
+Gris claro: #b8b8b9
+Gris de fondo: #f1f1f1
