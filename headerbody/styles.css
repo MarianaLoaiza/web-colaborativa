@@ -18,13 +18,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #099d8d;
+    background-color:lightseagreen;
     color: #ffffff;
     font-size: 16px;
     font-family: "Rubik";
+    font-weight: bold;
  
+} 
+.nav-link-c {
+    text-decoration: none;
+    color: white;
 }
-
 
 .grid__items:nth-child(3){
     grid-column-start: 1;
