@@ -1,45 +1,149 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Rubik&display=swap');
-html {
-    display: flex;
-    width: 100%;
-    text-align: center;
-    
+body{
+
+    margin: 0;
 }
-body {
-    background-color: white;
+
+/* contenedor header */
+.header{
+    width: 100%;
+    height: 550px; 
+    display: flex;
+    font-family: "Rubik";
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+/* contenedor grid */
+.grid{
+    width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 12% 88%;
+   
 
 }
-.container-team {
-    background-color: white;
-    border-radius: 10px;
-    margin-top: 45px;
-    display: inline-block;
-    padding: 2rem;
-    font-weight: bold;
-    font-family: "Open sans";
-    font-size: 20px;
-    color: #099d8d;
+
+/* grid items */
+.grid__items:first-child, .grid__items:nth-child(2){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #099d8d;
+    color: #ffffff;
+    font-family: "Rubik";
+    font-size: 16px;
+ 
 }
-/*Colores 
-Verde oscuro: #099d8d
-Verde claro: #14d9c4
-Blanco: #ffffff
-Negro: #000000
-Gris oscuro: #54585a
-Gris claro: #b8b8b9
-Gris de fondo: #f1f1f1*/
-.container-fd {
-    background-color: #14d9c4;
-    border-radius: 10px;
-    margin: 10px;
+
+
+.grid__items:nth-child(3){
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-image: url(imagenes/Collage-GeekGirls.jpg);
+    background-repeat: no-repeat;
+    background-size:70% 100%; ;
+    background-position: center;
+    
+    
+}
+
+/* contenedor lista */
+
+.list{
+    display: flex;  
+    
+}
+
+/* list items */
+.list__items{
+    align-items: flex-end;
+    list-style: none;
+    padding: 10px;
+    padding-left: 45px;   
+}
+.container-team {
+    font-family: "Rubik";
+    font-size: 24px;
+    font-weight: bold;
+    color: #099d8d;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    padding: 2rem;
+}
+.strengths {
+    font-family: "Rubik";
+    font-size: 22px;
+    font-weight: bold;
+    color: #099d8d;
+    text-align: center;
+}
+.weaknesses {
+    padding: 3rem 0 0 0;
+    font-family: "Rubik";
+    font-size: 22px;
+    font-weight: bold;
+    color: #099d8d;
+    text-align: center;
+}
+.container-fd{
+    color: #54585A;
+    font-size: 16px;
+    font-family: "Open sans";
+    text-align: center;
+    padding: 3rem;
+    font-weight: normal;
+}
+.title {
+    font-family: "Rubik";
+    font-size: 24px;
+    font-weight: bold;
+    color: #099d8d;
+    text-align: center;
+}
+.componente1 {
+    color: #54585A;
+    font-size: 20px;
+    font-family: "Open sans";
+    text-align: center;
+    padding: 3rem;
+    font-weight: bold;
+}
+.componente2 {
+    color: #54585A;
+    font-size: 20px;
+    font-family: "Open sans";
+    text-align: center;
+    padding: 3rem;
+    font-weight: bold;
+}
+.componente3 {
+    color: #54585A;
+    font-size: 20px;
+    font-family: "Open sans";
+    text-align: center;
+    padding: 3rem;
+    font-weight: bold;
+}
+.componente4 {
+    color: #54585A;
+    font-size: 20px;
+    font-family: "Open sans";
+    text-align: center;
+    padding: 3rem;
+    font-weight: bold;
+}
+.componente5 {
+    color: #54585A;
+    font-size: 20px;
+    font-family: "Open sans";
+    text-align: center;
+    padding: 3rem;
+    font-weight: bold;
 }
 p {
-    font-family: "Rubik";
+    color: #54585A;
+    font-size: 16px;
+    font-family: "Open sans";
+    text-align: center;
     font-weight: normal;
-    font-size: 15px; 
-    color: black;   
 }
