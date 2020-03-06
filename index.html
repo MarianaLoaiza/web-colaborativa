@@ -10,70 +10,96 @@
     <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-  <!--Inicio del formulario--> 
-  <main>
+    <nav class="navbar navbar-expand-lg header">  
+        <div class="col-sm-12 tc d-md-none d-lg-none d-sm-none title-sm">Geek Girls</div>
+        <a  style="margin-left: 25px;" class="navbar-brand d-none d-sm-block">Geek Girls</a>
+        <ul class="list-inline menu-sm">
+            <li class="list-inline-item nav-item item">
+                <a href="#" class="nav-link" >EQUIPO</a>
+            </li>
+            <li class="list-inline-item nav-item">
+                <a href="#" class="nav-link" >QUIENES SOMOS</a>
+            </li>
+            <li class="list-inline-item nav-item">
+                <a  href="#" class="nav-link">CONTACTO</a>
+            </li>
+        </ul>
+        
+    </nav>
+    <div class="img-header"></div>
     <div class= "container">
-        <div class="contact">
-         <h1 id="title">CONTACTO</h1>
-         <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dolore tempora ipsa, exercitationem quisquam dicta nam nesciunt veritatis! Ea dolorem cupiditate accusantium suscipit rem nihil illo assumenda, odit impedit quibusdam!
-         </p><h5>Todos los campos marcados con * son obligatorios</h5>
+        <div class="contact tc">
+         <h3 id="title">CONTACTO</h3>
+         <p class="descripcion">
+                Este formulario es para las personas que deseen comunicarse con este gran equipo, deja aquí tus datos para contactarnos contigo.
+         </p>
+         <p class="subtile">
+            Todos los campos con <span class="obligate">*</span> son obligatorios.
+        </p>
         </div>
         <form class="survey-form">
             <div class="form-group">
-                <label id="name-label" for="name">Nombre Completo*</label>
+                <label id="name-label" for="name">Nombre Completo <span class="obligate">*</span></label>
                 <input type="text" name="name" id="name" class="form-control" placeholder="Ingrese su nombre completo" required="">
             </div>
-            <section class="form-groups">
-            <div class="form-group1">
-                <label id="email-label" for="email">Email*</label>
-                <input type="email" name="email" id="email" class="form-control" placeholder="nombre.apeliidos@mail.com" required="">
+            <div class="row">
+                <div class="form-group col-12 col-md-6">
+                    <label id="email-label" for="email">Email <span class="obligate">*</span></label>
+                    <input type="email" name="email" id="email" class="form-control" placeholder="nombre.apeliidos@mail.com" required="">
+                </div>
+                <div class="form-group col-12 col-md-6">
+                    <label id="tel-label" for="teléfono">Teléfono</label>
+                    <input type="tel" name="teléfono" id="telefono" pattern="[0-12]{12}" class="form-control" placeholder="Ej:123456789" required="">
+                </div>
             </div>
-            <div class="form-group2">
-                <label id="tel-label" for="teléfono">Teléfono</label>
-                <input type="tel" name="teléfono" id="telefono" pattern="[0-12]{12}" class="form-control" placeholder="Ej:123456789" required="">
-            </div>
-        </section>
+            
+        
             <div class="form-group">
-                <label id="text" for="Mensaje">Mensaje*</label>
+                <label id="text" for="Mensaje">Mensaje <span class="obligate">*</span></label>
                 <textarea id="comments" class="input-textarea" name="comment" placeholder="¿Qué necesitas?"></textarea>
             </div>
     
-            <div class="form-group">
-                <button type="submit" id="submit" class="submit-button">
-                Enviar 
-            </button>
+            <div class="form-group container row">
+                <div class="col-8"></div>
+                <div class="col-4">
+                    <button type="submit" id="submit" class="submit-button">
+                        Enviar 
+                    </button>
                 </div>
+            </div>
         </form>
+       
     </div>
-</main>
+    <footer class="page-footer font-small blue pt-4">
+        <div class="container-fluid text-center text-md-left">
+            <div class="row justify-between">
+                <div class="col-12 col-md-4">
+                    <img src="imagenes/GGicono.png" alt="">
+                </div>
+                    
+                <div class="col-12 col-md-4 offset-md-4">     
+                        <ul class="list-footer" style="padding-inline-start: 0; list-style: none; margin-bottom: 0px; color: #54585A; font-size:14px;">
+                            <li>Equipo</li>
+                            <li>Quienes somos</li>
+                            <li>Contactanos</li>
+                        </ul>
+                    </div>    
+                </div>
+                <div class="col-sm-12"><p style="color: #B8B8B9; font-size: 14px "> GeekGirls © 2020</p></div>
+            </div>
+        </div>
+    </footer>
+    <!-- <footer style= "padding-top: 10px; position: relative; bottom: 0; ">
+            <div class="container" style="padding-top: 0px; padding-bottom:10px; ">
+                <div class="row">
+                
+            </div>
+        </footer> -->
     <!--Fin del formulario--> 
 
     <!--Inicio del footer-->
 <!---Start HTML for footer -->
-<footer style= "padding-top: 10px; position: relative; bottom: 0; border-top: 1px solid #B8B8B9;">
-    <div class="container" style="padding-top: 0px; padding-bottom:10px; ">
-        <!---Start Bootstrap/CSS3 for footer -->
-        <div class="row">
-        <div class="col-12 .col-sm-12 .col-md-6.col-lg-6 d-flex justify-content-between">
-            <img style="position: relative"  src="imagenes/GGicono.png" alt="">
-            <p style="color:#B8B8B9; font-size: 14px;"> GeekGirls © 2020</p>
-            
-            <div class=".col-12 .col-sm-12 .col-md-6.col-lg-6 .col-xl-6 d-flex justify-content-between">     
-                <ul style="list-style: none; margin-bottom: 0px; color: #54585A; font-size:14px;">
-                    <li>Equipo</li>
-                    <li>Quienes somos</li>
-                    <li>Contactanos</li>
-                </ul>
-              
-             </div>
-            <!--div class=".col-12 .col-sm-12 .col-md-6 .col-lg-6 .col-xl-6 d-flex justify-content-between"> Quienes somos </div>
-            <div class=".col-12 .col-sm-12 .col-md-6 .col-lg-6 .col-xl-6 d-flex justify-content-between"> Contacto </div>
-         </div-->
 
-        
-        </div>
-    </div>
-</footer>
 </html>
 </body>
 </html>
