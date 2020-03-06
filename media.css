@@ -1,0 +1,20 @@
+@media (min-width: 576px){
+    .header {
+        display: flex;
+        padding: 0px;
+        color: #ffffff;
+        justify-content: space-between;
+        background: #099d8d;
+    }
+    .menu-sm{
+        background: #099d8d;
+        width: auto;
+        float: right;
+    }
+}
+
+@media (min-width: 768px){
+    .list-footer{
+        text-align: right;
+    }
+}
