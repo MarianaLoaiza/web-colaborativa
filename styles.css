@@ -69,6 +69,7 @@ body{
     font-weight: bold;
     color: #099d8d;
     text-align: center;
+    margin-top: 0 0 45px 0;
 }
 .strengths {
     font-family: "Rubik";
@@ -99,6 +100,7 @@ body{
     font-weight: bold;
     color: #099d8d;
     text-align: center;
+    margin: 45px 0 0 0;
 }
 .componente1 {
     color: #54585A;
@@ -107,6 +109,7 @@ body{
     text-align: center;
     padding: 3rem;
     font-weight: bold;
+    margin: 45px 0 15px 0;
 }
 .componente2 {
     color: #54585A;
@@ -146,4 +149,5 @@ p {
     font-family: "Open sans";
     text-align: center;
     font-weight: normal;
+    margin: 15px;
 }
