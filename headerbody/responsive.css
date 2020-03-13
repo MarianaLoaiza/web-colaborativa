@@ -1,5 +1,6 @@
 
 @media (min-width: 768px) and (max-width: 1200px) {
+    
     .main{
         width: 100%;
         height: 300px; 
@@ -42,5 +43,90 @@
     .container{
         margin-top: 30px;
     }
+
     
+    .integrantes, .integrantes-M{
+        display: block;
+        width: 100%;
+        color: #54585A;
+        font-size: 10px;
+        font-family: "Open sans";
+        padding: 10px auto;
+        font-weight: bold;
+        margin-top: 50px;
+      
+        
+        
+    }
+
+    .foto, .foto-m{
+        justify-content: center;
+        margin: 10px auto;
+        display: block;
+        text-align: center;
+    }
+
+    .foto-m{
+        text-align: center;
+        float: none;
+    }
+
+    .foto__img,.foto__img-m{
+        text-align: center;
+        display: block;
+        width: 180px;
+        height: 180px;
+        border-radius: 10px;
+    }
+    .foto__img-m{
+        float: none;
+    }
+
+    .info, .info-m {
+        justify-content: center;
+        text-align: center;
+        margin: 20px 30px;
+        width: auto;
+        color: #54585A;
+        font-size: 16px;
+        font-family: "Open sans";
+        font-weight: normal;
+        
+    }
+
+    .info-m{
+        float: none;
+    }
+    .info__parrafo, .info__parrafo-m{
+        text-align: center;
+    }
+
+
+    .page-footer{
+        display: flex;
+        flex-shrink: none;
+        margin:25px;
+        border-top: 1px solid #B8B8B9;
+    }
+    
+    .row{
+        display: block;
+        justify-content: center;
+        
+    }
+
+    .col{
+        display: block;
+        text-align: center;
+    }
+    .list-footer{
+        font-family: "Open sans";
+        font-weight: bold;
+        text-align: center;
+        padding-inline-start: 0; 
+        list-style: none; 
+        margin-bottom: 0px; 
+        color: #54585A; 
+        font-size:14px;
+    }
 }

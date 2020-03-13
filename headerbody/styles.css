@@ -33,7 +33,7 @@ body{
 .grid__items:nth-child(3){
     grid-column-start: 1;
     grid-column-end: 3;
-    background-image: url(Collage-GeekGirls.jpg);
+    background-image: url(../imagenes/Collage-GeekGirls.jpg);
     background-repeat: no-repeat;
     background-size:45% 100%; ;
     background-position: center;
@@ -90,6 +90,7 @@ body{
     text-align: center;
 }
 .container-fd{
+    background-color: #eae7e7;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -107,7 +108,8 @@ body{
     color: #099d8d;
     text-align: center;
 }
-.integrantes {
+.integrantes, .integrantes-M{
+
     display: flex;
     width: 100%;
     height: 500px;
@@ -116,23 +118,38 @@ body{
     font-family: "Open sans";
     padding-right: 3rem;
     font-weight: bold;
-    text-align: center;
     margin-top: 50px;
     
 }
-.foto{
+.integrantes-M{
+    text-align: left;
+    justify-content: right;
+}
+.foto, .foto-m{
     display: flex;
     justify-content: center;
     width: 40%;
 }
+.foto-m{
+    position: relative;
+    float: right;
+}
 
-.foto__img{
+.foto__img, .foto__img-m{
     width: 278px;
     height: 278px;
     border-radius: 10px;
 }
+.foto__img-m{
 
-.info {
+  position: relative;
+  float: right;
+  justify-content: right;
+}
+
+
+
+.info,.info-m {
     width: 40%;
     text-align: left;
     color: #54585A;
@@ -143,8 +160,19 @@ body{
     
 }
 
+.info-m{
+    background-position: right;
+    position: relative;
+    float: left;
+    
+}
+
 .info__parrafo{
     text-align: left;
+}
+.info__parrafo-m{
+    text-align: right;
+   
 }
 
 p {
@@ -156,3 +184,25 @@ p {
 }
 
 
+.page-footer{
+    display: flex;
+    flex-shrink: none;
+    margin:25px;
+    border-top: 1px solid #B8B8B9;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.list-footer{
+    font-family: "Open sans";
+    font-weight: bold;
+    text-align: center;
+    padding-inline-start: 0; 
+    list-style: none; 
+    margin-bottom: 0px; 
+    color: #54585A; 
+    font-size:14px;
+}
